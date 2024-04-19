@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.div {
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(2, 1, 23, 1) 0%, rgba(33, 69, 70, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+}
+
+
+.h1 {
+    text-align: center;
+}
+
+
+.digital-clock {
+    background: radial-gradient(circle, rgba(2, 1, 23, 1) 0%, rgba(33, 69, 70, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.5);
+    text-shadow: 5px 10px 10px rgba(128, 128, 128, 0.5);
+    margin: 20px auto;
+}
+
+
+@media (max-width: 768px) {
+
+    .digital-clock {
+        width: 50%;
+    }
+}
